@@ -16,10 +16,6 @@ import java.util.ArrayList;
 import id.sch.smktelkom_mlg.privateassignment.xirpl533.projectpribadi.R;
 import id.sch.smktelkom_mlg.privateassignment.xirpl533.projectpribadi.model.Result;
 
-/**
- * Created by hyuam on 12/10/2016.
- */
-
 public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder> {
     ArrayList<Result> list;
     ISourceAdapter mISourceAdapter;

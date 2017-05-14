@@ -1,9 +1,5 @@
 package id.sch.smktelkom_mlg.privateassignment.xirpl533.projectpribadi.model;
 
-/**
- * Created by hyuam on 18/04/2017.
- */
-
 public class Result {
     //            "id": "abc-news-au",
     //            "name": "ABC News (AU)",
