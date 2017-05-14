@@ -15,6 +15,9 @@
 
 ### Jenis Navigasi :
  * Navigasi Drawer
+ 
+### Library
+ * SQLite Dasar
 
 ### Deskripsi :
 * Aplikasi mobile yang dapat menampilkan daftar-daftar film-film internasional mulai dari film yang menduduki top rate, film yang akan datang dan film yang sedang tayang untuk memudahkan user dalam mencari film yang diinginkan. Data yang ditayangkan dijamin kevalid-an dan kebenarannya. Dengan ini user dapat mengenal banyak tentang film-film baru yang ditampilkan di aplikasi ini.
@@ -25,6 +28,7 @@ Aplikasi ini dapat update sewaktu-waktu, sehingga user tidak akan ketinggalan me
 ### Kelebihan Aplikasi :
  * User dapat melihat daftar-daftar film top rate, film yang akan datang dan film yang sedang tayang.
  * Aplikasi simple sehingga mudah untuk digunakan.
+ * Bisa melihat daftar film secara offline
  
  ### Library yang digunakan :
  * Glide
