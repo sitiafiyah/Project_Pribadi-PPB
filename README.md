@@ -17,9 +17,10 @@
  * Navigasi Drawer
 
 ### Deskripsi :
-* Aplikasi mobile yang dapat menampilkan daftar-daftar film mulai dari film yang menduduki top rate, 
-film yang akan datang dan film yang sedang tayang untuk memudahkan user dalam mencari film yang diinginkan. 
-Data yang ditayangkan dijamin kevalid-an dan kebenarannya.
+* Aplikasi mobile yang dapat menampilkan daftar-daftar film-film internasional mulai dari film yang menduduki top rate, film yang akan datang dan film yang sedang tayang untuk memudahkan user dalam mencari film yang diinginkan. Data yang ditayangkan dijamin kevalid-an dan kebenarannya. Dengan ini user dapat mengenal banyak tentang film-film baru yang ditampilkan di aplikasi ini.
+Selain itu user dapat mendapatkan informasi atau detail dari setiap film-film yang disajikan pada apikasi ini. Dengan begitu user dapat mengetahui lebih jauh dan user akan lebih mudah memilih dan menentukan mana film yang menurutnya baik dan bagus untuk ditonton.
+Aplikasi ini dapat update sewaktu-waktu, sehingga user tidak akan ketinggalan mengenai update film yang disediakan. Namun untuk update ini user harus memiliki koneksi untuk meload data yang baru. Jika tidak ada koneksi internet kemungkinan aplikasi ini akan menampilkan data akhir yang telah dibuka pada hari atau waktu sebelumnya.
+
 
 ### Kelebihan Aplikasi :
  * User dapat melihat daftar-daftar film top rate, film yang akan datang dan film yang sedang tayang.
