@@ -5,7 +5,7 @@
     <!---->
     <!--</group>-->
 
-    <item android:title="Dafrtar">
+    <item android:title="Daftar">
         <menu>
 
             <item
@@ -21,6 +21,10 @@
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_queue_play_next_black_24dp"
                 android:title="Now Playing" />
+            <item
+                android:id="@+id/nav_fav"
+                android:icon="@drawable/ic_favorite_border_black_24dp"
+                android:title="Favorite List" />
 
         </menu>
     </item>

@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.privateassignment.xirpl533.projectpribadi;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -12,9 +13,20 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import id.sch.smktelkom_mlg.privateassignment.xirpl533.projectpribadi.adapter.SourceAdapter;
+import id.sch.smktelkom_mlg.privateassignment.xirpl533.projectpribadi.sugar.FavoriteFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, SourceAdapter.ISourceAdapter {
+
+    public static final String RESULTPOSTER = "resultPoster";
+    public static final String RESULTOVER = "resultOverview";
+    public static final String RESULTRELEASE = "resultRelease";
+    public static final String RESULTTITLE = "resultTitle";
+    public static final String RESULTBACK = "resultBackdrop";
+    public static final String RESULTVOTE = "resultOver";
+    public static final String RESULTLANGUAGE = "resultLanguage";
+    public static final String RESULTPOPULARITY = "resultPopularity";
+    public static final String RESULTVOTECOUNT = "resultVote";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,6 +112,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
             fragment = new Page3();
             setTitle("Playing Now");
+        } else if (id == R.id.nav_fav) {
+            fragment = new FavoriteFragment();
+            setTitle("Fragment List");
         }
 
         getSupportFragmentManager().beginTransaction()
@@ -110,7 +125,17 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public void showArticles(String title, String overview, String poster_path) {
-
+    public void showArticles(String poster_path, String overview, String release_date, String title, String backdrop_path, String vote_average, String original_language, String popularity, String vote_count) {
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra(RESULTPOSTER, poster_path);
+        intent.putExtra(RESULTOVER, overview);
+        intent.putExtra(RESULTRELEASE, release_date);
+        intent.putExtra(RESULTTITLE, title);
+        intent.putExtra(RESULTBACK, backdrop_path);
+        intent.putExtra(RESULTVOTE, vote_average);
+        intent.putExtra(RESULTLANGUAGE, original_language);
+        intent.putExtra(RESULTPOPULARITY, popularity);
+        intent.putExtra(RESULTVOTECOUNT, vote_count);
+        startActivity(intent);
     }
 }
